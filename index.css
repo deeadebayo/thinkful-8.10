@@ -1,15 +1,34 @@
 /* This whole file is my css for the site */
 /* most of css requirements in are tied to one body selector. Rest of styles are on link hovers */
+:root {
+    font-size: 20px;
+}
+
 body {
-    background: ;
-    color: ;
-    font-family: ;
-    font-size: 17px;
+    background: white;
+    color: hsl(105deg 4% 22%);
+    font-family: 'Helvetica',sans-serif;;
+    font-size: 1rem;
     height: 100vh;
     margin: 0;
     padding: 0 10%;
     text-align: center;
 }
+
+.content-wrapper {
+    width: clamp(16rem, 90vw, 70rem);
+}
+
+/* scss or styled-* would be nice to nest typhography styles */
+
+h1 {
+    font-size: 2.4rem;
+}
+
+.small {
+    font-size: .75rem;
+}
+
 .link:hover {
     color: orange;
 }
