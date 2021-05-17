@@ -15,6 +15,10 @@ body {
     text-align: center;
 }
 
+img {
+    max-height: 50vh;
+}
+
 .content-wrapper {
     width: clamp(16rem, 90vw, 70rem);
 }
