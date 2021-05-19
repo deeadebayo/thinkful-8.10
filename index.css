@@ -33,6 +33,10 @@ h1 {
     font-size: .75rem;
 }
 
+/* Pseudo classes */
+.link:link {
+    color: blue;
+}
 .link:hover {
     color: orange;
 }
